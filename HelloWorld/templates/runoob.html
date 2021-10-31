@@ -1,0 +1,38 @@
+{%extends "base.html" %}
+{% block mainbody %}
+    <p>替换</p>
+{% endblock %}
+<!--<h1>{{ views_list }}</h1>
+<h1>{{ views_list.0}}</h1>
+<h1>{{ views_dict.name|upper}}</h1>
+<h1>{{ views_default|default:"臭臭"}}</h1>
+<h1>{{ time|date:"Y-m-d"}}</h1>
+<h1>{{ views_str|safe}}</h1>-->
+
+<!--{% if views_num > 90 and views_num <= 100 %}
+<h1>优秀</h1>
+{% elif views_num > 60 and views_num <= 90 %}
+<h1>合格</h1>
+{% else %}
+<h1>一边玩去</h1>
+{% endif %}
+
+<ul>
+    {% for view in views_list reversed %}
+        <li>{{ view }}</li>
+    {% endfor %}
+</ul>
+
+<ul>
+    {% for i,j in views_dict.items %}
+        <li>{{ i }}-&#45;&#45;{{ j }}</li>
+    {% endfor %}
+</ul>-->
+
+<!--{% load my_tags %}
+{% my_tag1 2 3 22 %}
+{% my_html "zzz" "xxx" %}-->
+
+<!--{% load static %}
+{{time}}
+<img src="{% static "images/runoob-logo.png" %}" alt="runoob-logo">-->
